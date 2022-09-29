@@ -19,6 +19,7 @@ Visual Studio Code and react.js
 
 #### Solutions/solving the issue:
 1. I had to update the latest version of Index.js template.
+
 Example (old version)
   import React from 'react';
   //import ReactDOM from 'react-dom/client';
