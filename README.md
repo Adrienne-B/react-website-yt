@@ -19,6 +19,36 @@ Visual Studio Code and react.js
 
 #### Solutions/solving the issue:
 1. I had to update the latest version of Index.js template.
+Example (old version)
+  import React from 'react';
+  //import ReactDOM from 'react-dom/client';
+  import ReactDOM from 'react-dom';
+  import App from './App';
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+
+------------------------------------------
+Example (new version)
+  import React from 'react';
+  //import ReactDOM from 'react-dom/client';
+  import ReactDOM from 'react-dom';
+  import App from './App';
+
+  ReactDOM.render(
+
+    <React.StrictMode>
+
+        <App />
+
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+
 2. I had to update the latest version of App.js template from path component to exact path.
 3. I had to find a better Fontawesome link to get my hamburger.
 
