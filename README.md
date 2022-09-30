@@ -2,7 +2,7 @@
 
 ## Summary
 This was a personal project I wanted to do to practice on the react software. I followed a youtube video which helped me to create
-a  website.
+a  website. To have more collection of react project for my portfolio.
 
 ### Software used:
 Visual Studio Code and react.js
@@ -66,7 +66,7 @@ Example (new version)
   j.	git status
 
 #### Weakness so far:
-1.	Still a beginner a react (better understanding now).
+1.	Improving on react (better understanding now).
 
 
 ##### Credited: https://www.youtube.com/watch?v=I2UBjN5ER4s&t=539s
